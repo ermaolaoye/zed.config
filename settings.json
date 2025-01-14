@@ -1,0 +1,16 @@
+{
+  "vim_mode": true,
+  "base_keymap": "VSCode",
+  "theme": "D",
+  "buffer_font_family": "Cascadia Code NF",
+  "buffer_font_size": 14,
+  "terminal": {
+    "line_height": {
+      "custom": 1.2
+    }
+  },
+  "relative_line_numbers": true,
+  "scrollbar": { "show": "never" },
+  // Prevent the buffer from scrolling beyond the last line
+  "scroll_beyond_last_line": "off"
+}
