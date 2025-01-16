@@ -25,7 +25,6 @@
       "ctrl-w l": ["workspace::ActivatePaneInDirection", "Right"],
       "ctrl-w k": ["workspace::ActivatePaneInDirection", "Up"],
       "ctrl-w j": ["workspace::ActivatePaneInDirection", "Down"]
-      // ... or other keybindings
     }
   }
 ]

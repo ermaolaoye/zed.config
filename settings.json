@@ -1,4 +1,11 @@
 {
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    "version": "2"
+  },
   "vim_mode": true,
   "base_keymap": "VSCode",
   "theme": "D",
@@ -12,5 +19,11 @@
   "relative_line_numbers": true,
   "scrollbar": { "show": "never" },
   // Prevent the buffer from scrolling beyond the last line
-  "scroll_beyond_last_line": "off"
+  "scroll_beyond_last_line": "off",
+  "jupyter": {
+    "kernel_selections": {
+      "python": "xaillm"
+    }
+  },
+  "soft_wrap": "editor_width"
 }
